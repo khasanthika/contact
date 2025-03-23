@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <title>About Me - Jane Doe</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    a {
+      color: #2980b9;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    
+    /* New Header Navigation Bar (from the second HTML) */
+    header {
+      background: #cce0ff;
+      color: #003366;
+      padding: 15px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: #003366;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    nav ul li a:hover {
+      color: #ffcc00;
+    }
+    
+    /* Container */
+    .profile-container {
+      display: flex;
+      max-width: 1000px;
+      margin: 20px auto;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    
+    /* Left Side (Profile Info) */
+    .profile-left {
+      width: 300px;
+      background: #e6f3fa;
+      padding: 30px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    .profile-picture {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 3px solid #ccc;
+    }
+    .profile-left h1 {
+      margin: 10px 0 5px 0;
+      font-size: 1.5em;
+      color: #2c3e50;
+    }
+    .profile-left h2 {
+      margin: 5px 0;
+      font-weight: normal;
+      color: #666;
+    }
+    .profile-left h3 {
+      margin: 5px 0;
+      font-weight: normal;
+      font-size: 0.95em;
+      color: #666;
+    }
+    
+    /* Social Icons */
+    .social-icons {
+      margin-top: 15px;
+    }
+    .social-icons a {
+      margin: 0 5px;
+    }
+    .social-icons a img {
+      width: 32px;
+      height: 32px;
+      vertical-align: middle;
+    }
+    
+    /* Right Side (Main Content) */
+    .profile-right {
+      flex: 1;
+      padding: 30px;
+      box-sizing: border-box;
+    }
+    .profile-right h2 {
+      color: #2c3e50;
+      margin-top: 0;
+    }
+    
+    /* Two-Column Section */
+    .two-column {
+      display: flex;
+      gap: 40px;
+      margin-top: 20px;
+    }
+    .two-column > div {
+      flex: 1;
+    }
+    .two-column h3 {
+      margin-bottom: 10px;
+      color: #2c3e50;
+    }
+    .two-column ul {
+      margin-left: 5px;
+      padding-left: 0;
+    }
+    
+    /* Education List (no dots, only 🎓) */
+    .education-list {
+      list-style: none;
+      margin-left: 5px; 
+      padding-left: 0;
+    }
+    .education-list li::before {
+      content: "🎓 ";
+      margin-right: 5px;
+    }
+    
+    /* Additional Sections */
+    .contact {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="https://khasanthika.github.io/" target="_blank">Home</a></li>
+        <li><a href="https://khasanthika.github.io/my-portfolio/" target="_blank">Research &amp; Publications</a></li>
+        <li><a href="https://khasanthika.github.io/my-jekyll-blog1/python/pdf/latex/flask/2025/02/24/pdf-to-latex.html" target="_blank">Projects</a></li>
+        <li><a href="https://github.com/yourusername/another-repo" target="_blank">Blogs</a></li>
+        <li><a href="https://khasanthika.github.io/about.me/" target="_blank">About</a></li>
+        <li><a href="https://github.com/yourusername/another-repo" target="_blank">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+      <!-- Additional Section: Contact -->
+   <h2>Contact Me</h2>
+    <div class="content">
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+    </div>
+  </div>
+
+</body>
+</html>
